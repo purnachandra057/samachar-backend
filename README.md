@@ -1,3 +1,3 @@
 # samachar backend
 
-ExpressJS is used for backend. Prisma provides ORMapping. 
+ExpressJS is used for backend. Prisma provides ORMapping.
