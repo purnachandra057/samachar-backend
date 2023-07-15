@@ -3,8 +3,8 @@ import userRouter from './app/service/user/router'
 
 const app = express()
 
-app.get('/', (req, res) => {
-  res.end('Hello, World')
+app.get('/', async (req, res) => {
+  res.send('Welcome to Samachar Backend')
 })
 
 app.use('/user', userRouter)
